@@ -56,7 +56,7 @@ INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Saugat Bhattarai", "
 INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Rizan Bhandari", "rizan@gmail.com", "12345678", "student");
 INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Nischal Bhandari", "nischal@gmail.com", "12345678", "student");
 
-INSERT INTO User (user_name, email, pwd, user_role) value ("Janak Raj Joshi", "janak@gmail.com", "12345678", "teacher");
+INSERT INTO User (user_name, email, pwd, user_role) value ("Janak Raj Joshi", "jrj@gmail.com", "12345678", "teacher");
 INSERT INTO User (user_name, email, pwd, user_role) value ("Yuba Raj Devkota", "yubaraj@gmail.com", "12345678", "teacher");
 INSERT INTO User (user_name, email, pwd, user_role) value ("Santosh Panjiyar", "santosh@gmail.com", "12345678", "teacher");
 
