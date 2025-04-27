@@ -48,17 +48,17 @@ CREATE TABLE Attendance (
     PRIMARY KEY (id)
 );
 
-INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Sumiran Dahal", "sumiran@test.com", "12345678", "student");
-INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Tarun Regmi", "tarun@test.com", "12345678", "student");
-INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Bibek Koirala", "bibek@test.com", "12345678", "student");
-INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Suresh Subba", "suresh@test.com", "12345678", "student");
-INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Saugat Bhattarai", "saugat@test.com", "12345678", "student");
-INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Rizan Bhandari", "rizan@test.com", "12345678", "student");
-INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Nischal Bhandari", "nischal@test.com", "12345678", "student");
+INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Sumiran Dahal", "sumiran@gmail.com", "12345678", "student");
+INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Tarun Regmi", "tarun@gmail.com", "12345678", "student");
+INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Bibek Koirala", "bibek@gmail.com", "12345678", "student");
+INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Suresh Subba", "suresh@gmail.com", "12345678", "student");
+INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Saugat Bhattarai", "saugat@gmail.com", "12345678", "student");
+INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Rizan Bhandari", "rizan@gmail.com", "12345678", "student");
+INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Nischal Bhandari", "nischal@gmail.com", "12345678", "student");
 
-INSERT INTO User (user_name, email, pwd, user_role) value ("Janak Raj Joshi", "janak@test.com", "12345678", "teacher");
-INSERT INTO User (user_name, email, pwd, user_role) value ("Yuba Raj Devkota", "yubaraj@test.com", "12345678", "teacher");
-INSERT INTO User (user_name, email, pwd, user_role) value ("Santosh Panjiyar", "santosh@test.com", "12345678", "teacher");
+INSERT INTO User (user_name, email, pwd, user_role) value ("Janak Raj Joshi", "janak@gmail.com", "12345678", "teacher");
+INSERT INTO User (user_name, email, pwd, user_role) value ("Yuba Raj Devkota", "yubaraj@gmail.com", "12345678", "teacher");
+INSERT INTO User (user_name, email, pwd, user_role) value ("Santosh Panjiyar", "santosh@gmail.com", "12345678", "teacher");
 
 INSERT INTO Course (course_code, course_name) value ("BIT353", "Management Information System");
 INSERT INTO Course (course_code, course_name) value ("BIT252", "Database Management System");
