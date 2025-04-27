@@ -56,11 +56,11 @@ INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Saugat Bhattarai", "
 INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Rizan Bhandari", "rizan@test.com", "12345678", "student");
 INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Nischal Bhandari", "nischal@test.com", "12345678", "student");
 
-INSERT INTO User (user_name, email, pwd, user_role) value ("Nawaraj Negi", "nawaraj@test.com", "12345678", "teacher");
+INSERT INTO User (user_name, email, pwd, user_role) value ("Janak Raj Joshi", "janak@test.com", "12345678", "teacher");
 INSERT INTO User (user_name, email, pwd, user_role) value ("Yuba Raj Devkota", "yubaraj@test.com", "12345678", "teacher");
 INSERT INTO User (user_name, email, pwd, user_role) value ("Santosh Panjiyar", "santosh@test.com", "12345678", "teacher");
 
-INSERT INTO Course (course_code, course_name) value ("BIT253", "Operating System");
+INSERT INTO Course (course_code, course_name) value ("BIT253", "Management Information System");
 INSERT INTO Course (course_code, course_name) value ("BIT252", "Database Management System");
 INSERT INTO Course (course_code, course_name) value ("BIT251", "Data Structures and Algorithm");
 
@@ -68,5 +68,5 @@ INSERT INTO Teach (teacher_id, course_id) value (8, 1);
 INSERT INTO Teach (teacher_id, course_id) value (9, 2);
 INSERT INTO Teach (teacher_id, course_id) value (10, 3);
 
-INSERT INTO Lesson (lesson_name, course_id, time_started, time_ended, lesson_date) value ("CPU Scheduling", 1, "7:00", "8:00", "2025-03-28");
-INSERT INTO Attendance (student_id, lesson_id, attendance_time, attendance_date, attendance_status) value (1, 1, "7:20", "2025-02-14", "Present");
+INSERT INTO Lesson (lesson_name, course_id, time_started, time_ended, lesson_date) value ("Business Intelligence", 1, "8:00", "9:00", "2025-02-28");
+INSERT INTO Attendance (student_id, lesson_id, attendance_time, attendance_date, attendance_status) value (1, 1, "8:40", "2025-02-28", "Present");
