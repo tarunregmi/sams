@@ -48,60 +48,31 @@ CREATE TABLE Attendance (
     PRIMARY KEY (id)
 );
 
-INSERT INTO User (user_name, email, pwd, user_role) value ("CHAN Cxxx Mx", "ccm@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("CHAN Cxxxx Fxxx", "ccf@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("CHAN Mxx Yxxx", "cmy@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("CHAN Txxx Lxx", "ctl@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("CHAN Wxxx Hxx", "cwh@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("CHAN Yxxx Nx", "cyn@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("CHANG Wxx Cxxxx", "cwc@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("CHAU Yxx Hxx", "cyh@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("CHENG Sxxxx", "cs@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("CHONG Cxxxx Mxx", "ccm@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("CHOU Cxxx Yx", "ccy@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("CHU Sxxx Hxx", "csh@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("CHUNG Wxxx Hxx", "cwh@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("FAN Txx Kxx", "ftk@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("HEUNG Wxxx Kxx", "hwk@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("HUANG Jxxxxx", "hj@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("HUANG Yxxxxx", "hy@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("HUI Wxxx Hxx", "hwh@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("HUI Yxx Nxx", "hyn@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("KU Mx Kxx", "kmk@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("KWAN Cxxxx Mxx", "kcm@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("KWONG Hxx Yxx", "khy@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("LAI Cxxxx Mxx", "lcm@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("LAM xx Hxx", "lh@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("LEE Kxxx Hxx", "lkh@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("LI Px Lxxx", "lpl@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("LI Wxxxxxx", "lw@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("LI Wx Hxxx", "lwh@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("LIANG Yxx Sxx", "lys@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("LIN Zxxxx", "lz@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("LIU Kxx Cxxx", "lkc@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("NG Hxxx Wxxx", "ngw@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("PUN Yxx Kxxx", "pyk@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("TAM Txx Hxx", "tth@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("TANG Wxxx Yxx", "twy@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("WANG Yxxxxx", "wy@test.com", "testes", "student");
-INSERT INTO User (user_name, email, pwd, user_role) value ("WONG Cxx Hxx", "wch@test.com", "testes", "student");
+INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Sumiran Dahal", "sumiran@test.com", "12345678", "student");
+INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Tarun Regmi", "tarun@test.com", "12345678", "student");
+INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Bibek Koirala", "bibek@test.com", "12345678", "student");
+INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Suresh Subba", "suresh@test.com", "12345678", "student");
+INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Saugat Bhattarai", "saugat@test.com", "12345678", "student");
+INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Rizan Bhandari", "rizan@test.com", "12345678", "student");
+INSERT INTO User (user_name, email, pwd, user_role) VALUE ("Nischal Bhandari", "nischal@test.com", "12345678", "student");
+
+INSERT INTO User (user_name, email, pwd, user_role) value ("Nawaraj Negi", "nawaraj@test.com", "12345678", "teacher");
+INSERT INTO User (user_name, email, pwd, user_role) value ("Yuba Raj Devkota", "yubaraj@test.com", "12345678", "teacher");
+INSERT INTO User (user_name, email, pwd, user_role) value ("Santosh Panjiyar", "santosh@test.com", "12345678", "teacher");
 
 
-INSERT INTO User (user_name, email, pwd, user_role) value ("Liu", "liu@test.com", "testes", "teacher");
-INSERT INTO User (user_name, email, pwd, user_role) value ("Yan", "yan@test.com", "testes", "teacher");
-INSERT INTO User (user_name, email, pwd, user_role) value ("Pang", "pang@test.com", "testes", "teacher");
 
--- INSERT INTO Teacher (teacher_name, pwd) value ("Liu", "teacher");
--- INSERT INTO Teacher (teacher_name, pwd) value ("Yan", "teacher");
--- INSERT INTO Teacher (teacher_name, pwd) value ("Pang", "teacher");
+-- INSERT INTO Teacher (teacher_name, pwd) value ("Nawraj Negi", "teacher");
+-- INSERT INTO Teacher (teacher_name, pwd) value ("Yuba Raj Devkota", "teacher");
+-- INSERT INTO Teacher (teacher_name, pwd) value ("Santosh Panjiyar", "teacher");
 
-INSERT INTO Course (course_code, course_name) value ("AST10201", "Computer Organization");
-INSERT INTO Course (course_code, course_name) value ("AST10303", "Understanding the Network-Centric World");
-INSERT INTO Course (course_code, course_name) value ("AST10106", "Introduction to Programming");
+INSERT INTO Course (course_code, course_name) value ("BIT253", "Operating System");
+INSERT INTO Course (course_code, course_name) value ("BIT252", "Database Management System");
+INSERT INTO Course (course_code, course_name) value ("BIT251", "Data Structures and Algorithm");
 
-INSERT INTO Teach (teacher_id, course_id) value (38, 1);
-INSERT INTO Teach (teacher_id, course_id) value (39, 2);
-INSERT INTO Teach (teacher_id, course_id) value (40, 3);
+INSERT INTO Teach (teacher_id, course_id) value (1, 1);
+INSERT INTO Teach (teacher_id, course_id) value (2, 2);
+INSERT INTO Teach (teacher_id, course_id) value (2, 3);
 
-INSERT INTO Lesson (lesson_name, course_id, time_started, time_ended, lesson_date) value ("Test Lesson", 1, "17:00", "18:00", "2021-05-14");
-INSERT INTO Attendance (student_id, lesson_id, attendance_time, attendance_date, attendance_status) value (14, 1, "17:14", "2021-05-14", "Present");
+INSERT INTO Lesson (lesson_name, course_id, time_started, time_ended, lesson_date) value ("Linked List", 1, "7:00", "8:00", "2025-03-28");
+INSERT INTO Attendance (student_id, lesson_id, attendance_time, attendance_date, attendance_status) value (1, 1, "7:20", "2025-02-14", "Present");
