@@ -60,12 +60,6 @@ INSERT INTO User (user_name, email, pwd, user_role) value ("Nawaraj Negi", "nawa
 INSERT INTO User (user_name, email, pwd, user_role) value ("Yuba Raj Devkota", "yubaraj@test.com", "12345678", "teacher");
 INSERT INTO User (user_name, email, pwd, user_role) value ("Santosh Panjiyar", "santosh@test.com", "12345678", "teacher");
 
-
-
--- INSERT INTO Teacher (teacher_name, pwd) value ("Nawraj Negi", "teacher");
--- INSERT INTO Teacher (teacher_name, pwd) value ("Yuba Raj Devkota", "teacher");
--- INSERT INTO Teacher (teacher_name, pwd) value ("Santosh Panjiyar", "teacher");
-
 INSERT INTO Course (course_code, course_name) value ("BIT253", "Operating System");
 INSERT INTO Course (course_code, course_name) value ("BIT252", "Database Management System");
 INSERT INTO Course (course_code, course_name) value ("BIT251", "Data Structures and Algorithm");
