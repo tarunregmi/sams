@@ -1,7 +1,9 @@
 ## Start Application:
 
 ```bash
-docker compose up --build -d
+docker compose up
+# or
+docker volume rm sams_dbdata && docker compose up --build -d
 ```
 
 ## Demo Teacher
