@@ -64,9 +64,9 @@ INSERT INTO Course (course_code, course_name) value ("BIT253", "Operating System
 INSERT INTO Course (course_code, course_name) value ("BIT252", "Database Management System");
 INSERT INTO Course (course_code, course_name) value ("BIT251", "Data Structures and Algorithm");
 
-INSERT INTO Teach (teacher_id, course_id) value (1, 1);
-INSERT INTO Teach (teacher_id, course_id) value (2, 2);
-INSERT INTO Teach (teacher_id, course_id) value (2, 3);
+INSERT INTO Teach (teacher_id, course_id) value (8, 1);
+INSERT INTO Teach (teacher_id, course_id) value (9, 2);
+INSERT INTO Teach (teacher_id, course_id) value (10, 3);
 
 INSERT INTO Lesson (lesson_name, course_id, time_started, time_ended, lesson_date) value ("Linked List", 1, "7:00", "8:00", "2025-03-28");
 INSERT INTO Attendance (student_id, lesson_id, attendance_time, attendance_date, attendance_status) value (1, 1, "7:20", "2025-02-14", "Present");
