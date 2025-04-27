@@ -69,4 +69,5 @@ INSERT INTO Teach (teacher_id, course_id) value (9, 2);
 INSERT INTO Teach (teacher_id, course_id) value (10, 3);
 
 INSERT INTO Lesson (lesson_name, course_id, time_started, time_ended, lesson_date) value ("Business Intelligence", 1, "8:00", "9:00", "2025-02-28");
+INSERT INTO Lesson (lesson_name, course_id, time_started, time_ended, lesson_date) value ("Linked List", 3, "7:00", "8:00", "2025-02-28");
 INSERT INTO Attendance (student_id, lesson_id, attendance_time, attendance_date, attendance_status) value (1, 1, "8:40", "2025-02-28", "Present");
