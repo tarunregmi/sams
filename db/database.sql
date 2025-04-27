@@ -60,7 +60,7 @@ INSERT INTO User (user_name, email, pwd, user_role) value ("Janak Raj Joshi", "j
 INSERT INTO User (user_name, email, pwd, user_role) value ("Yuba Raj Devkota", "yubaraj@test.com", "12345678", "teacher");
 INSERT INTO User (user_name, email, pwd, user_role) value ("Santosh Panjiyar", "santosh@test.com", "12345678", "teacher");
 
-INSERT INTO Course (course_code, course_name) value ("BIT253", "Management Information System");
+INSERT INTO Course (course_code, course_name) value ("BIT353", "Management Information System");
 INSERT INTO Course (course_code, course_name) value ("BIT252", "Database Management System");
 INSERT INTO Course (course_code, course_name) value ("BIT251", "Data Structures and Algorithm");
 
