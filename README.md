@@ -4,11 +4,22 @@
 docker compose up --build -d
 ```
 
-## Credentials
+## Demo Teacher
 
-### Demo Teacher
+```
+email: jrj@gmail.com
+password: 12345678
+```
 
-### Demo Student
+```
+email: yubaraj@gmail.com
+password: 12345678
+```
+
+```
+email: santosh@gmail.com
+password: 12345678
+```
 
 ## Stop Application:
 
