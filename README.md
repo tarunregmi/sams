@@ -26,5 +26,5 @@ password: 12345678
 ## Stop Application:
 
 ```bash
-docker compose up down
+docker compose down
 ```
